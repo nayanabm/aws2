@@ -18,7 +18,7 @@ Steps to setup on aws
 
 - Go to rRobo directory 
       - Run : Rscript install.R
-      - Run : bash trainmonthly.sh
+      - Run : bash trainMonthly.sh
       - Run : bash job.sh
   (Command to run R file : Rscript filename)
 
