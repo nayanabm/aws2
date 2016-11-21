@@ -1,4 +1,4 @@
-FROM bnayana/roboadvisor:v0
+FROM abhivision/roboapp:f1
 RUN git pull --rebase origin master
 RUN pip install -r requirements.txt
 RUN export DJANGO_SETTINGS_MODULE=app.setting_postgres
