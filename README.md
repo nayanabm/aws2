@@ -4,7 +4,7 @@ Steps to setup on aws
       - Run : sudo yum update -y
       - Run : sudo yum install -y git
         
-- Clone https://github.com/Abhivision/aws
+- Clone https://github.com/Abhivision/aws2
 
 - Clone https://github.com/Abhivision/rRobo
 
