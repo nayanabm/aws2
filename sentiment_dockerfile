@@ -1,0 +1,3 @@
+FROM bnayana/sentiment:v0
+RUN git pull --rebase origin master
+RUN pip install -r requirements.txt
