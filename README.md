@@ -24,7 +24,8 @@ Steps to setup on aws
 
 - Steps on aws instance to set cronjob
       - connect to instance
-      - Run : curl -L https://github.com/docker/compose/releases/download/1.7.0/docker-compose-`uname -s`-`uname -m` >        ./docker-compose
+      - Run : 
+curl -L https://github.com/docker/compose/releases/download/1.7.0/docker-compose-`uname -s`-`uname -m` > ./docker-compose
       - Run : sudo mv ./docker-compose /usr/bin/docker-compose
       - Run : sudo chmod +x /usr/bin/docker-compose
       - Create daily.sh
