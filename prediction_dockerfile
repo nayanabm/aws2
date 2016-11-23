@@ -1,0 +1,5 @@
+FROM bnayana/prediction:v0
+RUN git pull --rebase origin master
+WORKDIR rRobo
+RUN sudo chmod -R a+w /usr/lib64/R/library
+RUN Rscript install.R
