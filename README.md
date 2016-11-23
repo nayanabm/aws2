@@ -17,6 +17,7 @@ Steps to setup on aws
       - Run : bash setup.sh
 
 - Go to rRobo directory 
+      - Run : sudo chmod -R a+w /usr/lib64/R/library
       - Run : Rscript install.R
       - Run : bash trainMonthly.sh
       - Run : bash job.sh
