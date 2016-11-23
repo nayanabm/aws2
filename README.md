@@ -4,11 +4,11 @@ Steps to setup on aws
       - Run : sudo yum update -y
       - Run : sudo yum install -y git
         
-- Clone https://github.com/Abhivision/aws2
+- Clone https://github.com/nayanabm/aws2
 
 - Clone https://github.com/Abhivision/rRobo
 
-- Go to aws directory
+- Go to aws2 directory
       - Run : bash install.sh
       - Run : sudo reboot #and again make aws ssh connection
       - Run : bash setup.sh (inside aws directory)
@@ -45,7 +45,7 @@ curl -L https://github.com/docker/compose/releases/download/1.7.0/docker-compose
       - Run : crontab -e
       - Create cron expressions
       
-            30 17 * * 1-5 bash daily.sh
+            30 2 * * 2-6 bash daily.sh
             @monthly bash trainMonthly.sh
             
 - For applying new changes
