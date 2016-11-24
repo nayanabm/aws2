@@ -25,9 +25,3 @@ services:
        - DJANGO_SETTINGS_MODULE=robo_app.prod_settings
      depends_on:
        - db      
-   prediction:
-     build:
-       context: .
-       dockerfile: prediction_dockerfile
-     depends_on:
-       - db
